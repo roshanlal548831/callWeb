@@ -12,7 +12,7 @@ const Room = () => {
       
 
       const serverSecret = "29e44c6aa0bec2caa5b59d6c4cce3b95";
-      const kitToken =  ZegoUIKitPrebuilt.generateKitTokenForTest(appID, serverSecret, roomID,  Date.now().toString(),  "");
+      const kitToken =  ZegoUIKitPrebuilt.generateKitTokenForTest(appID, serverSecret, roomID,  Date.now().toString(),  "Roshanlal");
     console.log(kitToken)
     
      // Create instance object from Kit Token.
